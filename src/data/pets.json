@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "foto": "/frontend/assets/images/pets/cachorro1.png",
+    "foto": "/assets/images/pets/cachorro1.png",
     "nome": "Churros",
     "tipo": "cachorro",
     "sexo": "Masculino",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "foto": "/frontend/assets/images/pets/gato1.png",
+    "foto": "/assets/images/pets/gato1.png",
     "nome": "Fifi Fofoca",
     "tipo": "gata",
     "sexo": "feminino",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "foto": "/frontend/assets/images/pets/cachorro2.png",
+    "foto": "/assets/images/pets/cachorro2.png",
     "nome": "Bolotinha",
     "tipo": "cachorra",
     "sexo": "feminino",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "foto": "/frontend/assets/images/pets/gato2.png",
+    "foto": "/assets/images/pets/gato2.png",
     "nome": "Mademoiselle Mia",
     "tipo": "gata",
     "sexo": "Feminino",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "foto": "/frontend/assets/images/pets/cachorro3.png",
+    "foto": "/assets/images/pets/cachorro3.png",
     "nome": "Fubá",
     "tipo": "Cachorro",
     "sexo": "Masculino",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "foto": "/frontend/assets/images/pets/gato3.png",
+    "foto": "/assets/images/pets/gato3.png",
     "nome": "Buriury",
     "tipo": "Gato",
     "sexo": "Masculino",
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "foto": "/frontend/assets/images/pets/cachorro4.png",
+    "foto": "/assets/images/pets/cachorro4.png",
     "nome": "Cleitinho",
     "tipo": "Cachorro",
     "sexo": "Masculino",
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "foto": "/frontend/assets/images/pets/gato4.png",
+    "foto": "/assets/images/pets/gato4.png",
     "nome": "Bigode",
     "tipo": "Gato",
     "sexo": "Masculino",
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "foto": "/frontend/assets/images/pets/cachorro5.png",
+    "foto": "/assets/images/pets/cachorro5.png",
     "nome": "Marmelada",
     "tipo": "Cachorra",
     "sexo": "Feminino",
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "foto": "/frontend/assets/images/pets/gato5.png",
+    "foto": "/assets/images/pets/gato5.png",
     "nome": "Dona Patroa",
     "tipo": "Gata",
     "sexo": "Feminino",

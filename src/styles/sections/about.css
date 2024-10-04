@@ -14,10 +14,10 @@
     padding: 20px;
     font-weight: 500;
   }
-  .container-abouth2 {
+  .container-about h2 {
     font-size: 1.2rem;
   }
-  .container-aboutp {
+  .container-about p {
     font-size: 0.8rem;
   }
 }
@@ -28,10 +28,10 @@
     padding: 40px;
     font-weight: 500;
   }
-  .container-abouth2 {
+  .container-about h2 {
     font-size: 1.2rem;
   }
-  .container-aboutp {
+  .container-about p {
     font-size: 0.8rem;
   }
 }
@@ -42,10 +42,10 @@
     gap: 10px;
     font-weight: 500;
   }
-  .container-abouth2 {
+  .container-about h2 {
     font-size: 1.5rem;
   }
-  .container-aboutp {
+  .container-about p {
     width: 80%;
     font-size: 0.9rem;
   }
@@ -58,10 +58,10 @@
     font-weight: 500;
     border-radius: 10px;
   }
-  .container-abouth2 {
+  .container-about h2 {
     font-size: 1.8rem;
   }
-  .container-aboutp {
+  .container-about p {
     width: 80%;
     font-size: 1rem;
   }

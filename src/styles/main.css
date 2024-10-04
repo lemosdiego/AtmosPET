@@ -4,3 +4,7 @@
 @import url(/src/styles/sections/home.css);
 @import url(/src/styles/sections/about.css);
 @import url(/src/styles/sections/adoptPet.css);
+@import url(/src/styles/sections/adoptionGuide.css);
+@import url(/src/styles/sections/adoptionStories.css);
+@import url(/src/styles/sections/heroSection.css);
+@import url(/src/styles/components/footer.css);

@@ -1,0 +1,260 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  .container-historys {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-historys h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    width: 90%;
+  }
+  /* Estilo do container dos cards */
+  .container-cards-historys {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  /* Estilo individual dos cards */
+  .card-historys {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  /* Efeito hover no card */
+  .card-historys:hover {
+    transform: translateY(-10px);
+  }
+
+  /* Estilo da imagem de perfil */
+  .img-perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  /* Nome do autor */
+  .card-historys h3 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  /* Descrição da história */
+  .card-historys p {
+    font-size: 0.8em;
+    color: #666;
+    line-height: 1.2;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-historys {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container-historys h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .p {
+    text-align: center;
+    width: 70%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  /* Estilo do container dos cards */
+  .container-cards-historys {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  /* Estilo individual dos cards */
+  .card-historys {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  /* Efeito hover no card */
+  .card-historys:hover {
+    transform: translateY(-10px);
+  }
+
+  /* Estilo da imagem de perfil */
+  .img-perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  /* Nome do autor */
+  .card-historys h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  /* Descrição da história */
+  .card-historys p {
+    font-size: 0.95em;
+    color: #666;
+    line-height: 1.4;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .container-historys {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container-historys h2 {
+    font-size: 1.4rem;
+  }
+  .p {
+    text-align: center;
+    width: 50%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  /* Estilo do container dos cards */
+  .container-cards-historys {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  /* Estilo individual dos cards */
+  .card-historys {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  /* Efeito hover no card */
+  .card-historys:hover {
+    transform: translateY(-10px);
+  }
+
+  /* Estilo da imagem de perfil */
+  .img-perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  /* Nome do autor */
+  .card-historys h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  /* Descrição da história */
+  .card-historys p {
+    font-size: 0.95em;
+    color: #666;
+    line-height: 1.4;
+  }
+}
+@media (min-width: 1200px) {
+  .container-historys {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container-historys h2 {
+    font-size: 1.4rem;
+  }
+  .p {
+    text-align: center;
+    width: 50%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  /* Estilo do container dos cards */
+  .container-cards-historys {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  /* Estilo individual dos cards */
+  .card-historys {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  /* Efeito hover no card */
+  .card-historys:hover {
+    transform: translateY(-10px);
+  }
+
+  /* Estilo da imagem de perfil */
+  .img-perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  /* Nome do autor */
+  .card-historys h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  /* Descrição da história */
+  .card-historys p {
+    font-size: 0.95em;
+    color: #666;
+    line-height: 1.4;
+  }
+}
+.card-historys {
+  background-color: #e0e0e0;
+}

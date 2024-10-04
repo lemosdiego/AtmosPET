@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AtmosPet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/frontend/css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Botão de abrir o menu -->
+      <button
+        class="menu-button open-icon"
+        aria-label="Open menu"
+        onclick="openMenu()"
+      >
+        <img src="/frontend/assets/icons/menu.svg" alt="Open" />
+      </button>
+      <div class="logo">
+        <img
+          src="/frontend/assets/images/AtmosPet.png"
+          alt="Logo"
+          class="logo-icon"
+        />
+      </div>
+      <nav class="navigation">
+        <!-- Botão de fechar o menu -->
+        <button
+          class="menu-button close-icon"
+          aria-label="Close menu"
+          onclick="closeMenu()"
+        >
+          <img src="/frontend/assets/icons/close.svg" alt="Close" />
+        </button>
+        <ul class="navigation-list">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#adocao">Adoção</a></li>
+          <li><a href="#guia">Guias</a></li>
+          <li><a href="#hystorys">Inspirações</a></li>
+          <li><a href="#hero">Torne-se um Herói</a></li>
+        </ul>
+        <section class="auth-buttons" id="authButtons">
+          <a href="/frontend/login.html">
+            <button class="login-button">Login</button>
+          </a>
+          <a href="/src/pages/register.html">
+            <button class="register-button">Sign Up</button>
+          </a>
+        </section>
+        <aside class="profile-section" id="profileIcon" style="display: none">
+          <img src="/src/assets/images/profile.svg" alt="Profile" />
+          <button id="logoutButton" style="display: none" aria-label="Logout">
+            <img src="/src/assets/images/logout.svg" alt="Logout" />
+          </button>
+        </aside>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="home" id="home">
+        <div class="box2">
+          <img src="/frontend/assets/images/home.png" alt="" />
+        </div>
+        <div class="box1">
+          <h1>Adote um pet e crie uma nova atmosfera de amor</h1>
+          <p>
+            Adote um pet e transforme sua vida: além de ganhar um novo amigo
+            fiel, você contribui para a proteção dos animais, reduzindo o número
+            de abandonos e promovendo a felicidade em sua casa. Experimente o
+            amor incondicional e a alegria que só um companheiro peludo pode
+            trazer!"
+          </p>
+          <button>Adote Agora</button>
+          <button>Cadastre um Pet</button>
+        </div>
+      </section>
+      <section class="sobre" id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>
+          O Atmospet nasceu da vontade de criar um espaço dedicado ao encontro
+          de pets resgatados com famílias amorosas e responsáveis. Sabemos que a
+          adoção é uma experiência transformadora, tanto para os animais quanto
+          para as pessoas, e acreditamos que todo pet merece a chance de viver
+          em um lar cheio de carinho. Nossa plataforma foi desenvolvida para
+          facilitar esse processo, garantindo uma experiência segura e acessível
+          para todos.
+        </p>
+        <p>
+          No Atmospet, cada pet tem uma história única. Nossa missão é
+          apresentar essas histórias e ajudar a encontrar a combinação perfeita
+          entre pets e adotantes. Por meio de perfis detalhados, você pode
+          conhecer mais sobre o comportamento, necessidades e personalidades dos
+          animais, garantindo que a adoção seja baseada em compatibilidade e
+          muito amor.
+        </p>
+        <p>
+          Acreditamos que adotar é muito mais do que oferecer um lar, é oferecer
+          uma nova vida. Ao escolher adotar, você está ajudando a transformar o
+          mundo de um pet, proporcionando a ele uma nova chance de ser feliz.
+          Navegue pelo nosso site, conheça nossos animais e faça parte dessa
+          atmosfera de amor e cuidado!
+        </p>
+      </section>
+      <section class="container-adotar" id="adocao">
+        <div class="container-form">
+          <h2>Encontre Seu Novo Melhor Amigo</h2>
+          <p>
+            Adotar um pet é uma experiência gratificante que oferece amor e
+            companheirismo. Ao abrir seu coração, você proporciona um lar seguro
+            a um animal que precisa de carinho. A adoção exige responsabilidade
+            a longo prazo, com cuidados em saúde, alimentação e atenção diária.
+            Se você está preparado para essa jornada, venha conhecer nossos pets
+            à espera de uma nova família!
+          </p>
+          <form action="">
+            <select id="animal" name="animal">
+              <option value="" disabled selected hidden>Animal</option>
+              <option value="Gato">Gato</option>
+              <option value="cachorro">Cachorro</option>
+            </select>
+
+            <select id="sexo" name="sexo">
+              <option value="" disabled selected hidden>Sexo</option>
+              <option value="macho">Macho</option>
+              <option value="femea">Fêmea</option>
+            </select>
+
+            <select id="idade" name="idade">
+              <option value="" disabled selected hidden>Idade</option>
+              <option value="filhote">Filhote</option>
+              <option value="adulto">Adulto</option>
+              <option value="idoso">Idoso</option>
+            </select>
+
+            <select id="porte" name="porte">
+              <option value="" disabled selected hidden>Porte</option>
+              <option value="pequeno">Pequeno</option>
+              <option value="medio">Médio</option>
+              <option value="grande">Grande</option>
+            </select>
+            <button>Buscar</button>
+          </form>
+        </div>
+        <div class="container-adopt-cards">
+          <div class="icon-adopt prev-icon" data-action="prev">
+            <img src="/frontend/assets/icons/left.svg" alt="Voltar" />
+          </div>
+          <div class="pet-container-cards"></div>
+          <div class="icon-adopt next-icon" data-action="next">
+            <img src="/frontend/assets/icons/right.svg" alt="Avançar" />
+          </div>
+        </div>
+        <div id="petModal" class="container-modal"></div>
+      </section>
+      <section class="container-guia" id="guia">
+        <div class="guia-adopt">
+          <div class="descricao">
+            <h2 id="guia-adocao">Passo a Passo da Adoção de Pets</h2>
+            <p>
+              Adotar um pet é um ato de amor! Neste guia, você encontrará as
+              etapas essenciais para facilitar sua jornada de adoção, desde o
+              cadastro até a chegada do seu novo amigo. Siga nosso passo a passo
+              e descubra como é gratificante essa nova jornada.
+            </p>
+          </div>
+          <div class="video">
+            <video
+              src="/frontend/assets/videos/guiaAdocao1.mp4"
+              controls
+              muted
+            ></video>
+          </div>
+        </div>
+        <div class="guia-cadastro">
+          <div class="descricao">
+            <h2 id="guia-cadastro">Guia de Cadastro de Pets</h2>
+            <p>
+              Se você precisa de assistência para cadastrar um pet e permitir
+              que outras pessoas tenham a oportunidade de adotá-lo, estamos aqui
+              para guiá-lo em cada etapa do processo. Juntos, podemos encontrar
+              um lar amoroso para seu amigo peludo!
+            </p>
+          </div>
+          <div class="video">
+            <video
+              src="/frontend/assets/videos/guiaCadastro.mp4"
+              controls
+              muted
+            ></video>
+          </div>
+        </div>
+      </section>
+      <section class="container-historys" id="historys">
+        <h2>Confira histórias inspiradoras</h2>
+        <p class="p">
+          Descubra como a AtmosPET transformou a vida de pessoas e seus novos
+          companheiros. Cada adoção é uma história de amor, carinho e uma vida
+          cheia de alegria. Veja como nossos pets trouxeram felicidade e novas
+          perspectivas para seus tutores!
+        </p>
+        <div class="container-cards-historys"></div>
+      </section>
+      <section class="container-hero" id="hero">
+        <h2>Quer ser um Herói?</h2>
+        <p>
+          Você pode fazer a diferença na vida de muitos animais! Ao adotar um
+          deles, você se torna um verdadeiro herói, oferecendo amor e uma nova
+          chance de vida. Além da adoção, sua ajuda pode vir de várias formas:
+          divulgando nosso trabalho ou fazendo uma doação. Cada contribuição é
+          essencial para continuarmos resgatando e cuidando de animais em
+          situação de vulnerabilidade.
+        </p>
+        <p>
+          Junte-se a nós! Adote, compartilhe nossa causa com seus amigos ou faça
+          uma doação para que possamos salvar ainda mais vidas. Juntos, podemos
+          construir um futuro melhor e mais cheio de amor para esses seres que
+          tanto precisam!
+        </p>
+        <div class="hero-buttons">
+          <a href="/frontend/pet.html">Encontre um Amigo</a>
+          <a href=""> <button>Compartilhe a Causa</button></a>
+          <a href=""> <button>Doe e Salve Vidas</button></a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-menu">
+        <div class="footer-desc">
+          <div class="logo-footer">
+            <img
+              src="/frontend/assets/images/AtmosPet.png"
+              alt="Logo AtmosPET"
+            />
+          </div>
+          <p class="desc-p">
+            A AtmosPet é uma organização dedicada a encontrar lares amorosos
+            para animais abandonados. Nosso objetivo é promover a adoção
+            responsável e conscientizar a sociedade sobre o cuidado e a proteção
+            dos pets.
+          </p>
+        </div>
+        <nav class="menu1">
+          <p class="menu-title">Menu</p>
+          <ul class="menu-ul">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#adocao">Adote</a></li>
+            <li><a href="#guia">Guias</a></li>
+            <li><a href="#historys">Inspirações</a></li>
+            <li><a href="#hero">Herói da vez</a></li>
+          </ul>
+        </nav>
+        <nav class="menu2">
+          <p class="menu-title">Ajude um Pet</p>
+          <ul class="menu-ul">
+            <li><a href="">Seja um herói</a></li>
+            <li><a href="">Adote um pet</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container-media">
+        <div class="media">
+          <img src="/frontend/assets/icons/face.svg" alt="Facebook" />
+        </div>
+        <div class="media">
+          <img src="/frontend/assets/icons/insta.svg" alt="Instagram" />
+        </div>
+        <div class="media">
+          <img src="/frontend/assets/icons/youtube.svg" alt="YouTube" />
+        </div>
+      </div>
+      <p class="autor">© 2024 AtmosPet.Desenvolvido por Washington Lemos</p>
+    </footer>
+
+    <script src="/frontend/js/main.js"></script>
+    <script src="/frontend/js/menu.js"></script>
+    <script src="/frontend/js/data/pets.js"></script>
+    <script src="/frontend/js/adopt.js"></script>
+    <script src="/frontend/js/guia.js"></script>
+    <script src="/frontend/js/guiaCadastro.js"></script>
+    <script src="/frontend/js/historys.js"></script>
+    <script src="/frontend/js/hero.js"></script>
+  </body>
+</html>

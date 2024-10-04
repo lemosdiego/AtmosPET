@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "foto": "/frontend/assets/images/pets/cachorro1.png",
+    "nome": "Churros",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": 1,
+    "porte": "Médio",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 2,
+    "foto": "/frontend/assets/images/pets/gato1.png",
+    "nome": "Fifi Fofoca",
+    "tipo": "gata",
+    "sexo": "feminino",
+    "idade": 2,
+    "porte": "pequeno",
+    "statusAdocao": "Em processo de adoção"
+  },
+  {
+    "id": 3,
+    "foto": "/frontend/assets/images/pets/cachorro2.png",
+    "nome": "Bolotinha",
+    "tipo": "cachorra",
+    "sexo": "feminino",
+    "idade": 5,
+    "porte": "Grande",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 4,
+    "foto": "/frontend/assets/images/pets/gato2.png",
+    "nome": "Mademoiselle Mia",
+    "tipo": "gata",
+    "sexo": "Feminino",
+    "idade": 5,
+    "porte": "pequeno",
+    "statusAdocao": "Em processo de adoção"
+  },
+  {
+    "id": 5,
+    "foto": "/frontend/assets/images/pets/cachorro3.png",
+    "nome": "Fubá",
+    "tipo": "Cachorro",
+    "sexo": "Masculino",
+    "idade": 5,
+    "porte": "Grande",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 6,
+    "foto": "/frontend/assets/images/pets/gato3.png",
+    "nome": "Buriury",
+    "tipo": "Gato",
+    "sexo": "Masculino",
+    "idade": 3,
+    "porte": "pequeno",
+    "statusAdocao": "Em processo de adoção"
+  },
+  {
+    "id": 7,
+    "foto": "/frontend/assets/images/pets/cachorro4.png",
+    "nome": "Cleitinho",
+    "tipo": "Cachorro",
+    "sexo": "Masculino",
+    "idade": 4,
+    "porte": "Grande",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 8,
+    "foto": "/frontend/assets/images/pets/gato4.png",
+    "nome": "Bigode",
+    "tipo": "Gato",
+    "sexo": "Masculino",
+    "idade": 4,
+    "porte": "pequeno",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 9,
+    "foto": "/frontend/assets/images/pets/cachorro5.png",
+    "nome": "Marmelada",
+    "tipo": "Cachorra",
+    "sexo": "Feminino",
+    "idade": 3,
+    "porte": "Médio",
+    "statusAdocao": "Em processo de adoção"
+  },
+  {
+    "id": 10,
+    "foto": "/frontend/assets/images/pets/gato5.png",
+    "nome": "Dona Patroa",
+    "tipo": "Gata",
+    "sexo": "Feminino",
+    "idade": 3,
+    "porte": "pequeno",
+    "statusAdocao": "Disponível"
+  }
+]

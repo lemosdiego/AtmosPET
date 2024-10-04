@@ -1,0 +1,225 @@
+@media (min-width: 320px) and (max-width: 1024px) {
+  .header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+  }
+  .logo {
+    width: 55px;
+    height: 55px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .navigation {
+    width: 95%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    background-color: #a0dff2;
+    z-index: 999;
+  }
+  .menu-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: none;
+  }
+  .open-icon {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+  .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  .navigation-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-end;
+    margin-top: 60px;
+    padding: 20px;
+    gap: 20px;
+  }
+  .navigation-list a {
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  .auth-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    padding-right: 20px;
+  }
+  .login-button,
+  .register-button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #5dade2;
+    border-radius: 4px;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .navigation {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10px;
+  }
+  .menu-button {
+    display: none;
+  }
+  .navigation-list {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .login-button,
+  .register-button {
+    width: 70px;
+    height: 40px;
+    border: none;
+  }
+  .profile-section {
+    display: flex;
+    align-items: center;
+  }
+  .scrolled {
+    position: fixed;
+    background-color: #a0dff2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .navigation-list a {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .logo {
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .navigation {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+  }
+  .menu-button {
+    display: none;
+  }
+  .navigation-list {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .login-button,
+  .register-button {
+    width: 70px;
+    height: 40px;
+    border: none;
+  }
+  .profile-section {
+    display: flex;
+    align-items: center;
+  }
+  .scrolled {
+    position: fixed;
+    background-color: #a0dff2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .navigation-list a {
+    font-size: 1.1rem;
+  }
+  .profile-section {
+    width: 140px;
+    display: flex;
+    gap: 10px;
+  }
+}
+.navigation-list a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+}
+.navigation-list a:hover {
+  color: #ffb742;
+}
+.login-button,
+.register-button {
+  background: #5dade2;
+  border-radius: 4px;
+}
+.auth-buttons button:hover {
+  background: #b0b0b0;
+}
+.profile-section button {
+  border: none;
+  background: none;
+}
+.scrolled {
+  z-index: 10;
+}

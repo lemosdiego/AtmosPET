@@ -14,9 +14,9 @@
     "foto": "/assets/images/pets/gato1.png",
     "nome": "Fifi Fofoca",
     "tipo": "gata",
-    "sexo": "feminino",
+    "sexo": "Feminino",
     "idade": 2,
-    "porte": "pequeno",
+    "porte": "Pequeno",
     "statusAdocao": "Em processo de adoção"
   },
   {
@@ -24,7 +24,7 @@
     "foto": "/assets/images/pets/cachorro2.png",
     "nome": "Bolotinha",
     "tipo": "cachorra",
-    "sexo": "feminino",
+    "sexo": "Feminino",
     "idade": 5,
     "porte": "Grande",
     "statusAdocao": "Disponível"
@@ -36,14 +36,14 @@
     "tipo": "gata",
     "sexo": "Feminino",
     "idade": 5,
-    "porte": "pequeno",
+    "porte": "Pequeno",
     "statusAdocao": "Em processo de adoção"
   },
   {
     "id": 5,
     "foto": "/assets/images/pets/cachorro3.png",
     "nome": "Fubá",
-    "tipo": "Cachorro",
+    "tipo": "cachorro",
     "sexo": "Masculino",
     "idade": 5,
     "porte": "Grande",
@@ -53,17 +53,17 @@
     "id": 6,
     "foto": "/assets/images/pets/gato3.png",
     "nome": "Buriury",
-    "tipo": "Gato",
+    "tipo": "gato",
     "sexo": "Masculino",
     "idade": 3,
-    "porte": "pequeno",
+    "porte": "Pequeno",
     "statusAdocao": "Em processo de adoção"
   },
   {
     "id": 7,
     "foto": "/assets/images/pets/cachorro4.png",
     "nome": "Cleitinho",
-    "tipo": "Cachorro",
+    "tipo": "cachorro",
     "sexo": "Masculino",
     "idade": 4,
     "porte": "Grande",
@@ -73,17 +73,17 @@
     "id": 8,
     "foto": "/assets/images/pets/gato4.png",
     "nome": "Bigode",
-    "tipo": "Gato",
+    "tipo": "gato",
     "sexo": "Masculino",
     "idade": 4,
-    "porte": "pequeno",
+    "porte": "Pequeno",
     "statusAdocao": "Disponível"
   },
   {
     "id": 9,
     "foto": "/assets/images/pets/cachorro5.png",
     "nome": "Marmelada",
-    "tipo": "Cachorra",
+    "tipo": "cachorra",
     "sexo": "Feminino",
     "idade": 3,
     "porte": "Médio",
@@ -93,10 +93,110 @@
     "id": 10,
     "foto": "/assets/images/pets/gato5.png",
     "nome": "Dona Patroa",
-    "tipo": "Gata",
+    "tipo": "gata",
     "sexo": "Feminino",
     "idade": 3,
-    "porte": "pequeno",
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 11,
+    "foto": "/assets/images/pets/cachorro6.png",
+    "nome": "Paçoca",
+    "tipo": "cachorra",
+    "sexo": "Feminino",
+    "idade": 6,
+    "porte": "Grande",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 12,
+    "foto": "/assets/images/pets/gato6.png",
+    "nome": "Mingau",
+    "tipo": "gato",
+    "sexo": "Masculino",
+    "idade": 2,
+    "porte": "Pequeno",
+    "statusAdocao": "Em processo de adoção"
+  },
+  {
+    "id": 13,
+    "foto": "/assets/images/pets/cachorro7.png",
+    "nome": "Nina",
+    "tipo": "cachorra",
+    "sexo": "Feminino",
+    "idade": 7,
+    "porte": "Médio",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 14,
+    "foto": "/assets/images/pets/gato7.png",
+    "nome": "Tigrão",
+    "tipo": "gato",
+    "sexo": "Masculino",
+    "idade": 5,
+    "porte": "Grande",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 15,
+    "foto": "/assets/images/pets/cachorro8.png",
+    "nome": "Pipoca",
+    "tipo": "cachorra",
+    "sexo": "Feminino",
+    "idade": 3,
+    "porte": "Médio",
+    "statusAdocao": "Em processo de adoção"
+  },
+  {
+    "id": 16,
+    "foto": "/assets/images/pets/gato8.png",
+    "nome": "Whiskers",
+    "tipo": "gato",
+    "sexo": "Masculino",
+    "idade": 4,
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 17,
+    "foto": "/assets/images/pets/cachorro9.png",
+    "nome": "Thor",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": 2,
+    "porte": "Grande",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 18,
+    "foto": "/assets/images/pets/gato9.png",
+    "nome": "Luna",
+    "tipo": "gata",
+    "sexo": "Feminino",
+    "idade": 6,
+    "porte": "Pequeno",
+    "statusAdocao": "Em processo de adoção"
+  },
+  {
+    "id": 19,
+    "foto": "/assets/images/pets/cachorro10.png",
+    "nome": "Bob",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": 4,
+    "porte": "Médio",
+    "statusAdocao": "Disponível"
+  },
+  {
+    "id": 20,
+    "foto": "/assets/images/pets/gato10.png",
+    "nome": "Garfield",
+    "tipo": "gato",
+    "sexo": "Masculino",
+    "idade": 5,
+    "porte": "Grande",
     "statusAdocao": "Disponível"
   }
 ]

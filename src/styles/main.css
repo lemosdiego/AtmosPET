@@ -1,10 +1,10 @@
 @import url(/src/styles/reset.css);
 @import url(/src/styles/global.css);
 @import url(/src/styles/components/header.css);
-@import url(/src/styles/sections/home.css);
-@import url(/src/styles/sections/about.css);
-@import url(/src/styles/sections/adoptPet.css);
-@import url(/src/styles/sections/adoptionGuide.css);
-@import url(/src/styles/sections/adoptionStories.css);
-@import url(/src/styles/sections/heroSection.css);
+@import url(/src/styles/sectionsIndex/home.css);
+@import url(/src/styles/sectionsIndex/about.css);
+@import url(/src/styles/sectionsIndex/adoptPet.css);
+@import url(/src/styles/sectionsIndex/adoptionGuide.css);
+@import url(/src/styles/sectionsIndex/adoptionStories.css);
+@import url(/src/styles/sectionsIndex/heroSection.css);
 @import url(/src/styles/components/footer.css);

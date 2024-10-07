@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/styles/components/header.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Botão de abrir o menu -->
+      <button
+        class="menu-button open-icon"
+        aria-label="Open menu"
+        onclick="openMenu()"
+      >
+        <img src="/assets/icons/menu.svg" alt="Open" />
+      </button>
+      <div class="logo">
+        <img src="/assets/images/AtmosPet.png" alt="Logo" class="logo-icon" />
+      </div>
+      <nav class="navigation">
+        <!-- Botão de fechar o menu -->
+        <button
+          class="menu-button close-icon"
+          aria-label="Close menu"
+          onclick="closeMenu()"
+        >
+          <img src="/assets/icons/close.svg" alt="Close" />
+        </button>
+        <ul class="navigation-list">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="/pets.html">Adoção</a></li>
+          <li><a href="#guia">Guias</a></li>
+          <li><a href="#historys">Inspirações</a></li>
+          <li><a href="#hero">Torne-se um Herói</a></li>
+        </ul>
+        <section class="auth-buttons" id="authButtons">
+          <a href="/frontend/login.html">
+            <button class="login-button">Login</button>
+          </a>
+          <a href="/register.html">
+            <button class="register-button">Sign Up</button>
+          </a>
+        </section>
+        <aside class="profile-section" id="profileIcon" style="display: none">
+          <img src="/src/assets/images/profile.svg" alt="Profile" />
+          <button id="logoutButton" style="display: none" aria-label="Logout">
+            <img src="/src/assets/images/logout.svg" alt="Logout" />
+          </button>
+        </aside>
+      </nav>
+    </header>
+  </body>
+</html>

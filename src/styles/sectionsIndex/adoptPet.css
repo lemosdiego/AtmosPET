@@ -306,13 +306,14 @@
   .container-adopt {
     width: 80%;
     display: flex;
+    flex-direction: column;
     gap: var(--gap);
     border-radius: 10px;
     padding: 20px;
   }
 
   .container-form {
-    width: 40%;
+    width: 100%;
     padding: var(--padding);
     display: flex;
     flex-direction: column;
@@ -325,29 +326,11 @@
 
   .container-form p {
     font-size: 0.95rem;
-  }
-
-  .container-form form {
-    display: flex;
-    flex-direction: column;
-    gap: var(--gap);
-    margin-top: 10px;
-  }
-
-  .container-form select,
-  .container-form button {
-    width: 100%;
-    height: 40px;
-    border-radius: 4px;
-    outline: none;
-  }
-
-  .container-form select {
-    padding: 4px;
+    width: 80%;
   }
 
   .container-adopt-cards {
-    width: 60%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

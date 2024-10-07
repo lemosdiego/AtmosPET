@@ -1,0 +1,80 @@
+.container-cards {
+  width: 100%;
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.cards {
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards button {
+  height: 40px;
+  background-color: #5dade2;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cards button:hover {
+  background-color: #a0dff2;
+}
+.img {
+  width: 100%;
+  height: 60%;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .container-cards {
+    width: 90%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  .cards {
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-cards {
+    width: 90%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  .cards {
+    width: 100%;
+    height: 380px;
+    padding: 15px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+}

@@ -6,12 +6,11 @@
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    padding: 10px;
   }
   .logo {
     width: 55px;
     height: 55px;
-    margin-top: 20px;
-    margin-right: 20px;
   }
   .logo img {
     width: 100%;
@@ -64,6 +63,11 @@
     align-items: flex-end;
     gap: 4px;
     padding-right: 20px;
+  }
+  .scrolled {
+    position: fixed;
+    background-color: #a0dff2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   .login-button,
   .register-button {
@@ -222,4 +226,7 @@
 }
 .scrolled {
   z-index: 10;
+}
+.header {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
 }

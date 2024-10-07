@@ -18,7 +18,7 @@ function closeMenu() {
   body.classList.remove("no-scroll");
 }
 
-//VERIFICA A LARGURA DA TELA E AJUSTA A VISIBILIDADE DO MENU
+// VERIFICA A LARGURA DA TELA E AJUSTA A VISIBILIDADE DO MENU
 function checkMenuVisibility() {
   if (window.innerWidth > 1024) {
     menu.style.display = "flex"; // Exibe o menu em telas grandes
@@ -41,12 +41,13 @@ let mobileLinks = menu.querySelectorAll("a");
 mobileLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
     if (window.innerWidth <= 1024) {
+      scrollToSection(event); // Rola para a seção antes de fechar o menu
       closeMenu(); // Fecha o menu e reativa o scroll apenas em mobile
     }
   });
 });
 
-// MENU DESKTOP
+// MENU DESKTOP - Muda a aparência do cabeçalho ao rolar a página
 window.onscroll = function () {
   let header = document.querySelector(".header");
 
@@ -57,7 +58,7 @@ window.onscroll = function () {
   }
 };
 
-//ROLAR CORRETAMENTE PARA  SEÇÃO
+// ROLAR CORRETAMENTE PARA SEÇÃO (funciona em todas as larguras de tela)
 function scrollToSection(event) {
   const targetId = event.target.getAttribute("href");
 

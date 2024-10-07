@@ -23,7 +23,7 @@ button {
 body {
   background: var(--primary-bg);
   overflow-x: hidden;
-  background: #f5f5dc;
+  background: #ffffff;
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .container {
@@ -35,3 +35,4 @@ body {
     gap: 30px;
   }
 }
+/* #f5f5dc */

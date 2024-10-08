@@ -27,4 +27,27 @@ form.addEventListener("submit", function (event) {
   localStorage.setItem("userRegisterData", JSON.stringify(userRegisterData));
   alert("Cadastro Realizado");
   form.reset();
+  console.log(JSON.parse(localStorage.getItem("userData")));
+});
+
+//API viacep para auto preenchimento
+//https://viacep.com.br/ws/{cep}/json/
+document.getElementById("cep").addEventListener("blur", function () {
+  const cep = this.value.replace(/\D/g, "");
+  if (cep.length === 8) {
+    fetch(`https://viacep.com.br/ws/${cep}/json/`)
+      .then((response) => response.json())
+      .then((data) => {
+        if (!data.erro) {
+          document.getElementById("rua").value = data.logradouro;
+        } else {
+          alert("CEP não encontrado.");
+        }
+      })
+      .catch((error) => {
+        console.error("Erro ao buscar o CEP:", error);
+      });
+  } else {
+    alert("CEP inválido. Deve conter 8 dígitos.");
+  }
 });

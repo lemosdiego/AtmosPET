@@ -65,7 +65,7 @@ function Weare() {
       </div>
       <div className="about-img">
         <div className="image">
-          <img src="/public/backgroundAbou.png" alt="" />
+          <img src="backgroundAbou.png" alt="" />
         </div>
       </div>
     </section>

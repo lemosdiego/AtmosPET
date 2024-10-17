@@ -16,7 +16,7 @@ function Guide() {
           </p>
         </div>
         <div className="video">
-          <video src="src/assets/video/guiaAdocao1.mp4" controls muted></video>
+          <video src="/video/guiaAdocao1.mp4" controls muted></video>
         </div>
       </div>
       <div className="guia-cadastro">
@@ -31,11 +31,7 @@ function Guide() {
           </p>
         </div>
         <div className="video">
-          <video
-            src="/src/assets/video/guiaCadastro.mp4"
-            controls
-            muted
-          ></video>
+          <video src="/video/guiaCadastro.mp4" controls muted></video>
         </div>
       </div>
     </section>

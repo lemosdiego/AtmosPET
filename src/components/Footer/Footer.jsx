@@ -52,13 +52,13 @@ function Footer() {
       </div>
       <div className="footer-social-media">
         <div className="social-media-icon">
-          <img src="/src/assets/icons/face.svg" alt="Facebook" />
+          <img src="/icons/face.svg" alt="Facebook" />
         </div>
         <div className="social-media-icon">
-          <img src="/src/assets/icons/insta.svg" alt="Instagram" />
+          <img src="/icons/insta.svg" alt="Instagram" />
         </div>
         <div className="social-media-icon">
-          <img src="/src/assets/icons/youtube.svg" alt="YouTube" />
+          <img src="/icons/youtube.svg" alt="YouTube" />
         </div>
       </div>
       <hr />

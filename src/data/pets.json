@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "foto": "/src/assets/ImagePets/cachorro1.png",
+    "nome": "Churros",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": "1 Ano",
+    "porte": "Médio",
+    "statusAdocao": "Disponível",
+    "descricao": "Churros é um filhote muito ativo e brincalhão, com energia de sobra para correr e se divertir. Ele adora explorar novos ambientes e está sempre em busca de uma aventura. Com seu temperamento alegre, ele se dá bem com crianças e outros animais. Ideal para famílias que gostam de atividades ao ar livre e procuram um companheiro para caminhadas, passeios e brincadeiras."
+  },
+  {
+    "id": 2,
+    "foto": "/src/assets/ImagePets/gato1.png",
+    "nome": "Fifi Fofoca",
+    "tipo": "gata",
+    "sexo": "Feminino",
+    "idade": "2 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Aguardando",
+    "descricao": "Fifi Fofoca é uma gata curiosa e cheia de personalidade. Ela adora explorar cantos da casa e está sempre atenta ao que está acontecendo ao seu redor. Apesar de sua natureza independente, Fifi adora momentos de carinho e se aconchegar no colo de quem ama. Ela se adapta bem em ambientes tranquilos e é perfeita para pessoas que buscam uma companhia afetuosa, mas que também respeite seu espaço."
+  },
+  {
+    "id": 3,
+    "foto": "/src/assets/ImagePets/cachorro2.png",
+    "nome": "Bolotinha",
+    "tipo": "cachorra",
+    "sexo": "Feminino",
+    "idade": "5 Anos",
+    "porte": "Grande",
+    "statusAdocao": "Disponível",
+    "descricao": "Bolotinha é uma cadela de porte grande, mas com um coração ainda maior. Apesar de seu tamanho, ela é muito dócil e tem um temperamento calmo e equilibrado. Bolotinha se dá bem com outros cães e pessoas, e é uma excelente opção para famílias que buscam um animal de estimação amoroso e tranquilo. Sua personalidade calma a torna ideal para lares com espaço, onde ela pode relaxar e aproveitar a companhia de sua nova família."
+  },
+  {
+    "id": 4,
+    "foto": "/src/assets/ImagePets/gato2.png",
+    "nome": "Mademoiselle Mia",
+    "tipo": "gata",
+    "sexo": "Feminino",
+    "idade": "5 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Aguardando",
+    "descricao": "Mademoiselle Mia é uma gata charmosa e elegante, que traz consigo uma aura de serenidade. Com um comportamento mais reservado, ela prefere um ambiente tranquilo onde possa relaxar em silêncio. Ela é perfeita para quem busca um companheiro discreto e afetuoso, que aprecie momentos de paz e conforto. Sua independência e carinho equilibrado a tornam a companhia ideal para quem aprecia a tranquilidade."
+  },
+  {
+    "id": 5,
+    "foto": "/src/assets/ImagePets/cachorro3.png",
+    "nome": "Fubá",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": "5 Anos",
+    "porte": "Grande",
+    "statusAdocao": "Disponível",
+    "descricao": "Fubá é um cão grande e forte, sempre pronto para proteger e brincar com sua família. Ele é um cão leal, que rapidamente se apega às pessoas que lhe oferecem amor e atenção. Fubá adora correr e brincar, especialmente em espaços abertos, e é ideal para famílias que têm espaço e tempo para passeios diários. Apesar de sua aparência robusta, ele é muito carinhoso e sempre busca agradar seus tutores."
+  },
+  {
+    "id": 6,
+    "foto": "/src/assets/ImagePets/gato3.png",
+    "nome": "Buriury",
+    "tipo": "gato",
+    "sexo": "Masculino",
+    "idade": "3 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Aguardando",
+    "descricao": "Buriury é um gatinho esperto e ágil, com uma energia contagiante. Ele está sempre em movimento, seja correndo atrás de um brinquedo ou explorando novos lugares. Buriury se dá muito bem com crianças e outros animais, e é ideal para quem procura um gato que traga alegria e diversão ao lar. Ele adora uma boa brincadeira, mas também sabe relaxar em um canto confortável quando está cansado."
+  },
+  {
+    "id": 7,
+    "foto": "/src/assets/ImagePets/cachorro4.png",
+    "nome": "Cleitinho",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": "4 Anos",
+    "porte": "Grande",
+    "statusAdocao": "Disponível",
+    "descricao": "Cleitinho é um cachorro leal e cheio de energia, sempre pronto para brincar e correr. Ele ama a companhia de humanos e é extremamente sociável com outros cães. Sua energia e disposição para longas caminhadas o tornam ideal para famílias ativas que procuram um parceiro para aventuras ao ar livre. Com Cleitinho, diversão e companheirismo estão garantidos!"
+  },
+  {
+    "id": 8,
+    "foto": "/src/assets/ImagePets/gato4.png",
+    "nome": "Bigode",
+    "tipo": "gato",
+    "sexo": "Masculino",
+    "idade": "4 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível",
+    "descricao": "Bigode é um gato com uma personalidade marcante. Seu olhar atento e sua postura elegante mostram o quanto ele é curioso e atento ao que acontece ao seu redor. Ele é o tipo de gato que aprecia momentos de calma, mas também adora uma boa sessão de carinho. Bigode é independente, mas quando sente confiança, torna-se um companheiro afetuoso e fiel. Perfeito para quem busca um gato que saiba equilibrar independência e afeto."
+  },
+  {
+    "id": 9,
+    "foto": "/src/assets/ImagePets/cachorro5.png",
+    "nome": "Marmelada",
+    "tipo": "cachorra",
+    "sexo": "Feminino",
+    "idade": "3 Anos",
+    "porte": "Médio",
+    "statusAdocao": "Aguardando",
+    "descricao": "Marmelada é uma cadela cheia de energia e alegria. Ela adora brincar ao ar livre e correr atrás de bolinhas, sempre com um sorriso no rosto. Sua personalidade extrovertida e amigável a torna a companhia perfeita para famílias que gostam de atividades ao ar livre. Marmelada é leal, carinhosa e está sempre pronta para uma nova aventura. Ideal para quem busca uma amiga fiel e cheia de vida."
+  },
+  {
+    "id": 10,
+    "foto": "/src/assets/ImagePets/gato5.png",
+    "nome": "Dona Patroa",
+    "tipo": "gata",
+    "sexo": "Feminino",
+    "idade": "3 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível",
+    "descricao": "Dona Patroa é uma gata de personalidade forte e determinada. Ela é independente e gosta de explorar seu território, mas também aprecia momentos de carinho quando se sente confortável. Dona Patroa é perfeita para quem procura um gato com atitude, que saiba impor sua presença, mas que também ofereça afeto e lealdade a quem conquista seu coração. Ela se adapta bem a lares tranquilos e com pessoas que respeitem seu espaço."
+  },
+  {
+    "id": 11,
+    "foto": "/src/assets/ImagePets/cachorro6.png",
+    "nome": "Trovão",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": "6 Anos",
+    "porte": "Grande",
+    "statusAdocao": "Disponível",
+    "descricao": "Trovão é um cachorro imponente, mas extremamente dócil. Ele adora proteger sua família e é muito leal aos seus tutores. Sua energia e disposição o tornam o parceiro ideal para longas caminhadas ou até mesmo para uma corrida ao ar livre. Apesar de sua força, ele é carinhoso e gosta de receber atenção. Um companheiro fiel para quem busca um cão de porte grande e amigável."
+  },
+  {
+    "id": 12,
+    "foto": "/src/assets/ImagePets/gato6.png",
+    "nome": "Cereja",
+    "tipo": "gata",
+    "sexo": "Feminino",
+    "idade": "2 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível",
+    "descricao": "Cereja é uma gatinha muito meiga, conhecida por seu olhar expressivo e por adorar momentos de carinho. Ela é muito apegada aos seus tutores e gosta de passar horas no colo recebendo afagos. Perfeita para lares tranquilos, onde ela possa relaxar e se sentir amada. Cereja adora seguir as pessoas pela casa e é uma excelente companheira para quem busca uma amiga fiel e carinhosa."
+  },
+  {
+    "id": 13,
+    "foto": "/src/assets/ImagePets/cachorro7.png",
+    "nome": "Caramelo",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": "3 Anos",
+    "porte": "Médio",
+    "statusAdocao": "Aguardando",
+    "descricao": "Caramelo é um cachorro simpático e extremamente sociável. Ele adora conhecer novas pessoas e outros animais, sempre balançando o rabo com empolgação. Caramelo tem uma personalidade amigável e é muito adaptável, perfeito para famílias que têm outros pets. Seu temperamento dócil e brincalhão faz dele o amigo ideal para quem busca um cão carismático e cheio de amor para dar."
+  },
+  {
+    "id": 14,
+    "foto": "/src/assets/ImagePets/gato7.png",
+    "nome": "Pantufa",
+    "tipo": "gata",
+    "sexo": "Feminino",
+    "idade": "4 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível",
+    "descricao": "Pantufa é uma gata serena e tranquila, que adora encontrar um cantinho macio para descansar. Ela se adapta bem a ambientes silenciosos e prefere um lar sem muita agitação. Embora seja reservada no início, Pantufa cria uma forte conexão com seus tutores e se torna uma companhia afetuosa e constante. Ideal para quem busca um pet discreto, mas que valorize a tranquilidade e os momentos de afeto."
+  },
+  {
+    "id": 15,
+    "foto": "/src/assets/ImagePets/cachorro8.png",
+    "nome": "Ziggy",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": "2 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível",
+    "descricao": "Ziggy é um cãozinho cheio de energia e alegria. Ele adora correr, brincar e está sempre pronto para qualquer aventura. Seu temperamento vibrante o torna ideal para famílias com crianças ou pessoas que adoram atividades ao ar livre. Ziggy é um companheiro fiel, que adora estar perto de seus tutores e fazer parte de todas as atividades da casa. Perfeito para quem busca um amigo leal e ativo."
+  },
+  {
+    "id": 16,
+    "foto": "/src/assets/ImagePets/gato8.png",
+    "nome": "Tigrinho",
+    "tipo": "gato",
+    "sexo": "Masculino",
+    "idade": "3 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível",
+    "descricao": "Tigrinho é um gato curioso e aventureiro, sempre em busca de algo novo para explorar. Ele adora escalar móveis e investigar cada canto da casa. Tigrinho é independente, mas também aprecia momentos de carinho e tranquilidade ao lado de seus tutores. Perfeito para quem procura um gato esperto e ativo, que gosta de desafios e de um ambiente estimulante."
+  },
+  {
+    "id": 17,
+    "foto": "/src/assets/ImagePets/cachorro9.png",
+    "nome": "Biscoito",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": "4 Anos",
+    "porte": "Médio",
+    "statusAdocao": "Disponível",
+    "descricao": "Biscoito é um cão amigável e carinhoso, que adora brincar e interagir com todos ao seu redor. Ele tem um temperamento tranquilo, mas também gosta de uma boa brincadeira ao ar livre. Biscoito é muito companheiro e está sempre em busca de agradar seus tutores. Ideal para quem procura um cachorro equilibrado, que saiba alternar momentos de diversão e de calma."
+  },
+  {
+    "id": 18,
+    "foto": "/src/assets/ImagePets/gato9.png",
+    "nome": "Lulu",
+    "tipo": "gata",
+    "sexo": "Feminino",
+    "idade": "2 Anos",
+    "porte": "Pequeno",
+    "statusAdocao": "Aguardando",
+    "descricao": "Lulu é uma gata afetuosa e brincalhona, que adora se divertir com brinquedos e interagir com seus tutores. Ela é muito carismática e gosta de estar no centro das atenções. Lulu se adapta bem a lares movimentados, especialmente com crianças, e adora explorar novos ambientes. Perfeita para quem procura uma gatinha ativa, curiosa e cheia de amor para dar."
+  },
+  {
+    "id": 19,
+    "foto": "/src/assets/ImagePets/cachorro10.png",
+    "nome": "Max",
+    "tipo": "cachorro",
+    "sexo": "Masculino",
+    "idade": "8 meses",
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível",
+    "descricao": "Max é um cachorro de grande porte e coração ainda maior. Ele é muito calmo e paciente, perfeito para famílias que buscam um companheiro sereno e equilibrado. Max adora passar o dia relaxando ao lado de seus tutores, mas também curte passeios tranquilos ao ar livre. Seu temperamento dócil o torna ideal para lares que procuram um cão de grande porte, mas com uma personalidade suave."
+  },
+  {
+    "id": 20,
+    "foto": "/src/assets/ImagePets/gato10.png",
+    "nome": "Sushi",
+    "tipo": "gata",
+    "sexo": "Feminino",
+    "idade": "1 Ano",
+    "porte": "Pequeno",
+    "statusAdocao": "Disponível",
+    "descricao": "Sushi é uma gata tranquila e observadora, que prefere passar seus dias em locais elevados, de onde pode observar tudo ao seu redor. Ela é independente, mas também aprecia momentos de carinho, especialmente à noite. Sushi se dá bem em lares mais calmos, onde pode ter seu próprio espaço para descansar e se sentir segura. Perfeita para quem busca uma companhia discreta e carinhosa."
+  }
+]

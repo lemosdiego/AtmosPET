@@ -1,0 +1,226 @@
+@media (max-width: 482px) {
+  .stories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .stories-container-title {
+    width: 90%;
+  }
+  .stories-container-title h2 {
+    font-size: 16px;
+    margin: 10px 10px 10px 0;
+  }
+  .stories-description {
+    width: 90%;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .stories-cards-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .stories-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .stories-card img {
+    width: 130px;
+    height: 130px;
+  }
+  .stories-card h3 {
+    font-size: 14px;
+  }
+  .stories-card p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 483px) and (max-width: 768px) {
+  .stories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .stories-container-title {
+    width: 85%;
+  }
+  .stories-container-title h2 {
+    font-size: 18px;
+    margin: 10px 10px 10px 0;
+  }
+  .stories-description {
+    width: 85%;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .stories-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .stories-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    padding: 15px;
+  }
+  .stories-card img {
+    width: 140px;
+    height: 140px;
+  }
+  .stories-card h3 {
+    font-size: 15px;
+  }
+  .stories-card p {
+    font-size: 13px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .stories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .stories-container-title {
+    width: 85%;
+  }
+  .stories-container-title h2 {
+    font-size: 19px;
+    margin: 10px 10px 10px 0;
+  }
+  .stories-description {
+    width: 85%;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .stories-cards-container {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .stories-card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stories-card img {
+    width: 150px;
+    height: 140px;
+  }
+  .stories-card h3 {
+    font-size: 16px;
+  }
+  .stories-card p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .stories-container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .stories-container-title {
+    width: 100%;
+  }
+  .stories-container-title h2 {
+    font-size: 20px;
+    margin: 10px 10px 10px 0;
+  }
+  .stories-description {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .stories-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+  .stories-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .stories-card img {
+    width: 140px;
+    height: 140px;
+  }
+  .stories-card h3 {
+    font-size: 15px;
+  }
+  .stories-card p {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1201px) {
+  .stories-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .stories-container-title {
+    width: 100%;
+  }
+  .stories-container-title h2 {
+    font-size: 25px;
+    margin: 20px 20px 20px 0;
+  }
+  .stories-description {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .stories-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+  .stories-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .stories-card img {
+    width: 140px;
+    height: 140px;
+  }
+  .stories-card h3 {
+    font-size: 17px;
+  }
+  .stories-card p {
+    font-size: 15px;
+  }
+}
+.stories-card {
+  border-radius: 10px;
+  border: solid 1.5px #ffa726;
+}

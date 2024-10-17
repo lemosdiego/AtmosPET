@@ -1,0 +1,222 @@
+@media (max-width: 1024px) {
+  .no-scroll {
+    overflow: hidden;
+  }
+  .hidden {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .header {
+    height: 70px;
+    position: fixed; /* Alterado para fixo */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #ddd9dd;
+  }
+  .menu-button {
+    background: none;
+    position: absolute;
+    border: none;
+  }
+  .open-icon {
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .close-icon {
+    top: 10px;
+    right: 20px;
+  }
+  .navigation {
+    display: none;
+    height: 100vh;
+    width: 95vw;
+    position: fixed;
+    background-color: #1f2933;
+    z-index: 10;
+  }
+  .navigation.open {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .navigation-list hr {
+    width: 80%;
+    height: 1px;
+    display: inline-block;
+  }
+  .navigation-list {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .navigation-list a {
+    font-size: 16px;
+    color: #ddd9dd;
+    text-decoration: none;
+  }
+  .auth-buttons {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  .auth-buttons button {
+    width: 80px;
+    height: 35px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .menu-button {
+    display: none;
+  }
+
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+  .header {
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    z-index: 10;
+  }
+  .navigation {
+    width: 55%;
+  }
+  .navigation-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation-list a {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .auth-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+  }
+  .auth-buttons button {
+    width: 90px;
+    height: 35px;
+  }
+  .logo-mobile {
+    display: none;
+  }
+  .navigation-list a {
+    text-decoration: none;
+    color: #1f2937;
+  }
+  .scrolled {
+    position: fixed;
+    background-color: #1f2933;
+    transition: 1s;
+  }
+  .scrolled a {
+    color: #f5f7fa;
+  }
+  .auth-buttons button {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1201px) {
+  .menu-button {
+    display: none;
+  }
+
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+  .header {
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    z-index: 10;
+  }
+  .navigation {
+    width: 55%;
+  }
+  .navigation-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation-list a {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .auth-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+  }
+  .auth-buttons button {
+    width: 90px;
+    height: 35px;
+  }
+  .logo-mobile {
+    display: none;
+  }
+  .navigation-list a {
+    text-decoration: none;
+    color: #1f2937;
+  }
+  .scrolled {
+    position: fixed;
+    background-color: #1f2933;
+    transition: 1s;
+  }
+  .scrolled a {
+    color: #f5f7fa;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  background-color: #faf3e0;
+  position: fixed;
+  width: 100vw;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-list a:hover {
+  color: #3b82f6;
+}
+
+.scrolled {
+  position: fixed;
+  background-color: #1f2933;
+  transition: 1s;
+}
+
+.scrolled a {
+  color: #f5f7fa;
+}
+.auth-buttons button {
+  border: none;
+  border-radius: 4px;
+  background-color: #5dade2;
+}

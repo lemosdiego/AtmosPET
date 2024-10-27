@@ -1,0 +1,11 @@
+.Card {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Card:hover {
+  transform: translateY(-5px);
+}
+.img img {
+  border-radius: 10px;
+}

@@ -1,0 +1,371 @@
+.container-catalog {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form form select {
+  border-radius: 4px;
+  outline: none;
+}
+.form form button {
+  border: none;
+  background: #5dade2;
+  border-radius: 4px;
+}
+.form form button:hover {
+  background-color: #b0b0b0;
+}
+.status-button {
+  border: none;
+  background: #5dade2;
+  border-radius: 4px;
+}
+.status-button:hover {
+  background-color: #b0b0b0;
+}
+.status-button.adoption {
+  cursor: not-allowed;
+  background-color: #ffa726;
+}
+@media (max-width: 482px) {
+  .container-catalog {
+    margin-top: 70px;
+    gap: 8px;
+    align-items: center;
+  }
+  .title-catalog {
+    width: 95vw;
+  }
+  .title-catalog h2 {
+    font-size: 18px;
+    margin: 10px 10px 10px 0;
+  }
+  .form {
+    width: 95vw;
+    display: flex;
+  }
+  .form form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .form form select {
+    width: 100%;
+    grid-column: span 1;
+    height: 40px;
+  }
+
+  .form form button {
+    width: 100%;
+    grid-column: span 2;
+    height: 40px;
+  }
+
+  .container-cards-catalog {
+    width: 100%;
+    max-width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .card-catalog {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .card-catalog h2 {
+    font-size: 14px;
+  }
+  .card-catalog p {
+    font-size: 12px;
+  }
+  .status-button {
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    height: 40px;
+  }
+}
+@media (min-width: 483px) and (max-width: 768px) {
+  .container-catalog {
+    margin-top: 70px;
+    gap: 8px;
+    align-items: center;
+  }
+  .title-catalog {
+    width: 85vw;
+  }
+  .title-catalog h2 {
+    font-size: 20px;
+    margin: 10px 10px 10px 0;
+  }
+  .form {
+    width: 90vw;
+    display: flex;
+  }
+  .form form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .form form select {
+    width: 100%;
+    grid-column: span 1;
+    height: 40px;
+  }
+
+  .form form button {
+    width: 100%;
+    grid-column: span 2;
+    height: 40px;
+  }
+
+  .container-cards-catalog {
+    width: 100%;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .card-catalog {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .card-catalog h2 {
+    font-size: 16px;
+  }
+  .card-catalog p {
+    font-size: 14px;
+  }
+  .status-button {
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    height: 40px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-catalog {
+    margin-top: 90px;
+    gap: 8px;
+    align-items: center;
+  }
+  .title-catalog {
+    width: 90vw;
+  }
+  .title-catalog h2 {
+    font-size: 25px;
+    margin: 10px 10px 10px 0;
+  }
+  .form {
+    width: 90vw;
+    display: flex;
+  }
+  .form form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .form form select {
+    width: 100%;
+    grid-column: span 1;
+    height: 40px;
+  }
+
+  .form form button {
+    width: 100%;
+    grid-column: span 2;
+    height: 40px;
+  }
+
+  .container-cards-catalog {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .card-catalog {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .card-catalog h2 {
+    font-size: 16px;
+  }
+  .card-catalog p {
+    font-size: 14px;
+  }
+  .status-button {
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    height: 40px;
+    font-size: 13px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .container-catalog {
+    margin-top: 150px;
+    gap: 8px;
+    align-items: center;
+  }
+  .title-catalog {
+    width: 90vw;
+  }
+  .title-catalog h2 {
+    font-size: 28px;
+    margin: 10px 10px 10px 0;
+  }
+  .form {
+    width: 90vw;
+    display: flex;
+  }
+  .form form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .form form select {
+    width: 100%;
+    grid-column: span 1;
+    height: 45px;
+  }
+
+  .form form button {
+    width: 100%;
+    grid-column: span 2;
+    height: 45px;
+  }
+
+  .container-cards-catalog {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .card-catalog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .img {
+    height: 250px;
+  }
+  .card-catalog h2 {
+    font-size: 17px;
+  }
+  .card-catalog p {
+    font-size: 15px;
+  }
+  .status-button {
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-catalog {
+    margin-top: 150px;
+    gap: 8px;
+    align-items: center;
+  }
+  .title-catalog {
+    width: 85vw;
+  }
+  .title-catalog h2 {
+    font-size: 29px;
+    margin: 10px 10px 10px 0;
+  }
+  .form {
+    width: 85vw;
+    display: flex;
+  }
+  .form form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .form form select {
+    width: 100%;
+    grid-column: span 1;
+    height: 50px;
+  }
+
+  .form form button {
+    width: 100%;
+    grid-column: span 2;
+    height: 50px;
+  }
+
+  .container-cards-catalog {
+    width: 85vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 4px;
+  }
+
+  .card-catalog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .img {
+    height: 200px;
+  }
+  .card-catalog h2 {
+    font-size: 16px;
+  }
+  .card-catalog p {
+    font-size: 14px;
+  }
+  .status-button {
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    height: 40px;
+    font-size: 14px;
+  }
+}

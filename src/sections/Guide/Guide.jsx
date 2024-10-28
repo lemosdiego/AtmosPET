@@ -16,7 +16,12 @@ function Guide() {
           </p>
         </div>
         <div className="video">
-          <video src="/video/guiaAdocao1.mp4" controls muted></video>
+          <video
+            src="/videos/guiaAdocao1.mp4" // Caminho atualizado
+            controls
+            muted
+            preload="metadata" // Opção para carregar metadados
+          ></video>
         </div>
       </div>
       <div className="guia-cadastro">
@@ -31,10 +36,16 @@ function Guide() {
           </p>
         </div>
         <div className="video">
-          <video src="/video/guiaCadastro.mp4" controls muted></video>
+          <video
+            src="/videos/guiaCadastro.mp4" // Caminho atualizado
+            controls
+            muted
+            preload="metadata" // Opção para carregar metadados
+          ></video>
         </div>
       </div>
     </section>
   );
 }
+
 export default Guide;

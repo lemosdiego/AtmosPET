@@ -51,7 +51,7 @@ function Weare() {
           respeito. Além disso, promovemos a educação e a conscientização sobre
           a importância da adoção responsável e do cuidado com os pets, buscando
           sempre criar um ambiente em que tanto os animais quanto as pessoas
-          possam prosperar juntos
+          possam prosperar juntos.
         </p>
         <div className="subtitle">
           <h3>Junte-se a Nós</h3>
@@ -65,7 +65,8 @@ function Weare() {
       </div>
       <div className="about-img">
         <div className="image">
-          <img src="backgroundAbou.png" alt="" />
+          {/* Use o caminho correto para a imagem */}
+          <img src="/backgroundAbou.png" alt="Imagem sobre nós" />
         </div>
       </div>
     </section>

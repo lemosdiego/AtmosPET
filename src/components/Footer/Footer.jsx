@@ -51,7 +51,7 @@ function Footer() {
         </nav>
       </div>
       <div className="footer-social-media">
-        <div className="social-media-icon">
+        {/* <div className="social-media-icon">
           <img src="/icons/face.svg" alt="Facebook" />
         </div>
         <div className="social-media-icon">
@@ -59,7 +59,7 @@ function Footer() {
         </div>
         <div className="social-media-icon">
           <img src="/icons/youtube.svg" alt="YouTube" />
-        </div>
+        </div> */}
       </div>
       <hr />
       <p className="footer-author">

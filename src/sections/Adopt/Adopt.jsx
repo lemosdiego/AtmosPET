@@ -1,4 +1,4 @@
-import "./Adopt.css";
+import "./Adopt.scss";
 import "../../assets/fonts/fonts.css";
 import { Link } from "react-router-dom";
 import Card from "../../components/Card/Card";
@@ -52,7 +52,7 @@ function Adopt() {
         <hr className="adopt-title-line" />
       </div>
       <div className="adopt-pets-container">
-        {pets.slice(-4).map((pet) => (
+        {pets.slice(-5).map((pet) => (
           <Card
             key={pet.id}
             foto={pet.foto}
@@ -60,16 +60,17 @@ function Adopt() {
             tipo={pet.tipo}
             idade={pet.idade}
             porte={pet.porte}
-            className={"adopt-pet-card"}
+            className="adopt-pet-card"
           />
         ))}
       </div>
       <div className="adopt-btn-container">
         <Link className="adopt-btn-link" to="/catalogo-pets">
-          <button className="adopt-btn"> Conheça Todos os Nossos Pets</button>
+          <button className="adopt-btn">Conheça Todos os Nossos Pets</button>
         </Link>
       </div>
     </section>
   );
 }
+
 export default Adopt;
